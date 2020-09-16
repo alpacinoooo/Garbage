@@ -120,7 +120,18 @@
    $ git push -u origin master
 ```
 
-#### git删除文件
+#### git文件操作
+
+```
+  $ git mkdir 文件夹名 //创建文件夹
+  $ git cd 文件夹名/   //进入文件夹
+  $ git rm 文件名.格式 //删除文件
+  $ git rm -r 文件夹名 //删除文件夹
+```
+
+
+
+#### git恢复删除文件
 
 通过git status可查看文件是否已经添加至暂存区（红色为未添加）
 
