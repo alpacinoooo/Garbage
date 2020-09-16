@@ -120,3 +120,29 @@
    $ git push -u origin master
 ```
 
+#### git删除文件
+
+通过git status可查看文件是否已经添加至暂存区（红色为未添加）
+
+1. 删除本地文件，但未添加至暂存区
+
+   ```
+     $ git checkout -- 文件名.格式
+   ```
+
+2. 删除本地文件，并且已添加至暂存区
+
+   ```
+     $ git reset HEAD 文件名.格式
+     $ git checkout -- 文件名.格式
+   ```
+
+3. 从暂存区把删除操作提交到了本地git库（已经输入commit命令）则进行版本回滚
+
+   ```
+     $ git log //查看版本信息
+     $ git reset --hard *.//选择ID前几位字符串
+   ```
+
+4. 删除操作已经推送至github
+
