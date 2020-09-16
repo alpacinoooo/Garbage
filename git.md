@@ -64,7 +64,7 @@
 | git reset        | 回退版本                             |
 | git rm           | 删除工作区文件                       |
 | git mv           | 移动或重命名工作区文件               |
-| git 咯个         | 查看历史提交记录                     |
+| git log         | 查看历史提交记录                     |
 | git blame <file> | 以列表形式产看指定文件的历史修改记录 |
 | git remote       | 远程仓库操作                         |
 | git fetch        | 从远程获取代码库                     |
