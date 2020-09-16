@@ -21,7 +21,7 @@
 
 - git工作区：显示的工作目录
 - git暂存区：stage或index
-- git版本库：。git目录
+- git版本库：.git目录
 
 1. 初始化（当前目录生成.git目录）
 
@@ -97,7 +97,7 @@
 1. 生成SSH Key
 
    ```
-     $ ssh-keygenn-t rsa -C "邮箱"
+     $ ssh-keygen -t rsa -C "邮箱"
    ```
 
 2. 在.ssh文件夹下找到id_rsa.pub（公钥），复制里面的key
