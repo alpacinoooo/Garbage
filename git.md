@@ -157,3 +157,18 @@
 
 4. 删除操作已经推送至github
 
+#### git错误处理
+
+报错为：`! [rejected] master -> master (fetch first) error: failed to push some refs to`
+
+原因：
+
+本地README.md与远程的不匹配
+
+解决方法：
+
+```
+git --rebase origin master
+git push -u originmaster
+```
+
